@@ -1,0 +1,101 @@
+## 基本概念
+- JDK和JRE有什么区别
+- 接口和抽象类的区别
+- Exception和Error区别
+- ClassNotFoundException和NoClassDefFoundError的区别
+- Comparable和Comparator区别
+- String、StringBuffer、StringBuilder区别
+- Object类里的方法
+- Files类里的方法
+- 异常处理原则
+- 举例常见的异常类
+- try-catch-finally 中哪个部分可以省略
+- try-catch-finally 中，如果 catch 中 return 了，finally 还会执行吗，在哪里执行
+- 介绍一下强饮用、软引用、弱引用、幻象引用（虚引用）
+- 怎么改变引用可达性
+- 介绍一下类加载
+- JDK 8有哪些新特性（接口默认方法、lambda表达式、函数式接口、方法与构造函数引用）
+## 容器
+- 传统集合整体框架
+- ArrayList、LinkedList、Vector的区别和实现原理
+- Java中Collection和Collections的区别
+- 常见的List(Vector、ArrayList、LinkedList)
+- 常见的Map（HashMap、LinkedHashMap、TreeMap)
+- 常见的Set（HashSet、LinkedHashSet、TreeSet）
+- 常见的队列（Deque、PriorityQueue、ConcurrentLinkedQueue、BlockingQueue）
+- HashMap实现原理，put和get操作的实现原理
+- HashMap的hash函数是怎么实现的
+- HashSet实现原理
+- 红黑树有什么特点
+- 多线程插入HashMap，为什么会陷入死循环
+- HashMap、HashTable、ConcurrentHashMap区别
+- ConcurrentHashMap实现原理，put和get操作的实现
+- ConcurrentHashMap 1.8为什么要使用CAS+Synchronized取代Segment+ReentrantLock
+- 哪些Map是有序的
+- 如何使用Collections 获取只读对象 UnmodifiableCollection
+- Queue里的add和offer、remove和poll区别
+- 迭代器是什么
+- Iterator 怎么使用？有什么特点？
+- Iterator 和 ListIterator 有什么区别
+- 如果使用迭代器遍历List时对List进行了修改会发生什么 
+- 线程安全的容器类有哪些
+- 常用的阻塞队列有哪些
+- 介绍一下SynchronousQueue、ArrayBlockingQueue、LinkedBlockingQueue、LinkedBlockingDeque、ConcurrentLinkedQueue
+- 介绍一下Vector和CopyOnWriteArrayList
+- 支持并发的集合有哪些，介绍一下CopyOnWriteArraySet、ConcurrentSkipListSet（实现、区别）
+- 支持并发的Map有哪些，介绍一下HashTable、ConcurrentHashMap、ConcurrentSkipListMap（区别、原理）
+## IO
+- IO流的分类
+- BIO、NIO、AIO定义
+- BIO设计体现了哪些设计模式
+- NIO基本概念
+- NIO底层原理
+- 堆外内存怎么申请
+- 堆外内存如何回收
+## 多线程
+- runnable和callable区别
+- Java里线程有哪些状态
+- 守护线程是什么
+- runnable和callable有什么区别
+- sleep()、wait()、join()、yeild()区别
+- notify()和notifyAll()有什么区别
+- 锁池和等待池
+- run()和start()区别
+- 同一线程启动两次会有什么问题
+- 常见的线程池有哪几类
+- 介绍一下CachedThreadPool的工作队列SynchronousQueue
+- 介绍一下FixThreadPool的工作队列LinkedBlockingQueue
+- 介绍一下ScheduledThreadPoolExecutor的工作队列DelayedWorkQueue
+- 线程池的几个参数
+- 线程池的状态
+- 线程池submit和execute区别
+- java如何保证多线程运行安全
+- synchronized锁升级机制
+- synchronized底层实现
+- synchronized 和 volatile 的区别是什么
+- synchronized 和 Lock 有什么区别
+- synchronized 和 ReentrantLock 区别是什么
+- atomic 的原理
+- ThreadLocal是什么，有什么使用场景
+- ThreadLocal有什么问题
+- java多线程底层是怎么实现的
+- 介绍一下JUC锁框架
+- 介绍一下互斥锁ReentrantLock
+- 介绍一下读写锁ReentrantReadWriteLock 
+- AQS是什么
+- CountDownLatch和CyclicBarrier有什么区别
+- Semaphore有什么作用
+## 反射
+- 什么是反射
+- 反射的作用
+- 没有反射行不行
+- 为什么 Pascal、c/c++ 不支持反射
+- Java反射机制主要提供的功能
+- 反射经常会用到的类
+- 什么是 java 序列化
+- 什么情况下需要序列化
+- transient 关键字
+- 动态代理
+- java 里的动态代理如何实现
+- java 里面除了new 之外，还有什么方式可以创建对象
+- 深拷贝和浅拷贝

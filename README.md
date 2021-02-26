@@ -1,3 +1,3 @@
-# interview code test
-This library is a collection of programming problems I encountered during interview.  
-the used language is **GoLang**, **Java**, **C**
+## 面试复习手册
+- 适合java程序员知识准备
+- 目前暂时没有答案，后续补充
