@@ -1,3 +1,11 @@
 ## 基础
+- 微服务的优势和劣势
 - eureka作用
-- eureka信息保存
+- eureka的注册信息保存
+- 微服务的自我保护机制
+- feign作用
+- ribbon作用
+- ribbon策略
+- hystrix作用
+- hystrix执行隔离策略
+- zuul作用
