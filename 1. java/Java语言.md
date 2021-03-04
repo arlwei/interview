@@ -17,7 +17,6 @@
 - JDK 8有哪些新特性（接口默认方法、lambda表达式、函数式接口、方法与构造函数引用）
 ## 容器
 - 传统集合整体框架
-- ArrayList、LinkedList、Vector的区别和实现原理
 - Java中Collection和Collections的区别
 - 常见的List(Vector、ArrayList、LinkedList)
 - 常见的Map（HashMap、LinkedHashMap、TreeMap)
@@ -53,7 +52,6 @@
 - 堆外内存怎么申请
 - 堆外内存如何回收
 ## 多线程
-- runnable和callable区别
 - Java里线程有哪些状态
 - 守护线程是什么
 - runnable和callable有什么区别

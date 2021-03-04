@@ -18,12 +18,17 @@
 - HW截断机制
 - 消息发送的可靠性机制（acks）
 - 消费者消费过程解析
-- partiton leader的选举范围
+- broker controller选举过程
+- partition leader选举过程
+- partition leader的选举范围
 - 重复消费问题怎么解决
 
 ## 常见问题
 - 如何保证消费有序
 - 消费如何确定放到哪个分区
+- 能添加broker吗
 - partition初始编号是什么
 - 能追加partition吗
+- kafka如何实现exactly once
 - kafka的幂等性如何实现（ProducerID、SequenceNumber）
+- 消费者消费能力低怎么解决
